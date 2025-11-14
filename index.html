@@ -1,21 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bc. Jáchym Šmíd</title>
   <link rel="stylesheet" href="web.css">
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
-    header { background: #4b6cb7; color: #fff; padding: 2rem; text-align: center; }
-    nav { background: #fff; padding: 1rem; display: flex; gap: 1rem; justify-content: center; border-bottom: 1px solid #ddd; }
-    nav a { text-decoration: none; color: #333; font-weight: bold; }
-    .container { max-width: 800px; margin: auto; padding: 2rem; background: #fff; }
-    h2 { margin-top: 2rem; }
-    footer { text-align: center; padding: 1rem 0; margin-top: 2rem; color: #666; }
-  </style>
 </head>
+
 <body>
+
   <header>
     <h1>Hi, I'm Jachym — College Student living in Prague</h1>
     <p>Welcome to my personal website!</p>
@@ -24,11 +18,11 @@
   <nav>
     <a href="#about">About</a>
     <a href="#blog">Blog</a>
-    <a href="#projects">Projects</a>
     <a href="#contact">Contact</a>
   </nav>
 
   <div class="container">
+
     <section id="about">
       <h2>About Me</h2>
       <p>I'm a college student studying Mathematical modelling, I have a bachelor's degree in Mechanical engineering. I love learning new stuff, working on fun side projects, and listening to music.</p>
@@ -36,14 +30,15 @@
 
     <section id="blog">
       <h2>Blog</h2>
+      <main id = "posts"></main>
       <script src="script.js"></script>
-      
     </section>
-    
+
     <section id="contact">
       <h2>Contact</h2>
       <p>Email me at: <a href="mailto:jachym.smid@fs.cvut.cz">jachym.smid@fs.cvut.cz</a></p>
     </section>
+
   </div>
 
   <footer>
