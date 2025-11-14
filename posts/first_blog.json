@@ -1,7 +1,5 @@
 {
   "title": "My First Blog Post",
   "date": "13/11/2025",
-  "content": "
-    <p>This is my first blog post written in HTML! I'll try and make this website somewhat pretty and useful, you can expect posts about what I've learned and also what I'm currently working on.</p>
-  "
+  "content": "<p>This is my first blog post written in HTML! I'll try and make this website somewhat pretty and useful, you can expect posts about what I've learned and also what I'm currently working on.</p>"
 }
