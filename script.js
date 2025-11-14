@@ -4,7 +4,7 @@ async function loadPosts() {
     if (!postsContainer) return;
 
     // List all your post filenames here:
-    const postFiles = ["first_blog.json"];
+    const postFiles = ["posts/first_blog.json"];
 
     for (const file of postFiles) {
         const post = await fetch(`posts/${file}`).then(r => r.json());
